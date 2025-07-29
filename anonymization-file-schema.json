@@ -5,7 +5,9 @@
   "version": "1.0.0",
   "type": "object",
   "patternProperties": {
-    "schema": {"type": "string"}
+    "schema": {
+      "type": "string"
+    }
   },
   "additionalProperties": {
     "type": "object",
