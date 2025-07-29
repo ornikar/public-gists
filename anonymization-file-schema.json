@@ -4,6 +4,11 @@
   "description": "Schema for defining anonymization rules for database fields",
   "version": "1.0.0",
   "type": "object",
+  "patternProperties": {
+    "schema": {
+      "type": "string"
+    }
+  },
   "additionalProperties": {
     "type": "object",
     "description": "Table name",
