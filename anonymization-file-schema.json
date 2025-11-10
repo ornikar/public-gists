@@ -115,12 +115,18 @@
             "dummy_valid_statux_code",
             "dummy_word",
             "dummy_words",
-            "dummy_zip_code"
+            "dummy_zip_code",
+            "json",
+            "unique_email"
           ]
         },
         "options": {
           "type": "string",
           "description": "Additional options for masking"
+        },
+        "options_json": {
+          "type": "object",
+          "description": "JSON to be used for masking when mask is 'json'"
         }
       },
       "additionalProperties": false
